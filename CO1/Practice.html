@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Student Registration</h2>
+            <form>
+                <label>Student Name</label>
+                <input type="text" required>
+
+                <div class="row">
+                    <div class="field">
+                        <label>Mobile No:</label>
+                        <input type="number" required>
+                    </div>
+
+                    <div class="field">
+                        <label>Email ID:</label>
+                        <input type="email" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label>Father Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label>Mother Name</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label>Select Course</label>
+                        <select>
+                            <option>Select...</option>
+                            <option>MBA</option>
+                            <option>B-Tech</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label>D.O.B</label>
+                        <input type="date">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label>Gender</label>
+                        <div class="gender">
+                            <input type="radio" name="gender">Male
+                            <input type="radio" name="gender">Female
+                        </div>
+                    </div>
+
+                        <div class="field">
+                            <label>Student Photo</label>
+                            <input type="file" accept="image/*">
+                        </div>
+                </div>
+
+                    <label>Select Branch</label>
+                    <div class="branch">
+                        <input type="checkbox">CSE
+                        <input type="checkbox">CS-IT
+                        <input type="checkbox">AIDS 
+                    </div>
+
+                    <label>Address</label>
+                    <textarea></textarea>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+
+            </form>
+        </div>
+    </body>
+</html>

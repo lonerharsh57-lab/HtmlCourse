@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#main {
+    background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<div id="main">Main Content</div>
+<div>Other Content</div>
+
+</body>
+</html>
