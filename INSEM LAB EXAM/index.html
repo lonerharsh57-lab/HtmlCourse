@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Student Registration</h2>
+            <div class="image">
+                <img src="data:image/png;base64,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">
+            </div>
+            <form>
+                <label>Student Name</label>
+                <input type="text" required>
+
+                <div class="row">
+                    <div class="field">
+                        <label>Mobile No:</label>
+                        <input type="number" required>
+                    </div>
+
+                    <div class="field">
+                        <label>Email ID:</label>
+                        <input type="email" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label>Father Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="field">
+                        <label>Mother Name</label>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label>Select Course</label>
+                        <select>
+                            <option>Select...</option>
+                            <option>MBA</option>
+                            <option>B-Tech</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label>D.O.B</label>
+                        <input type="date">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label>Gender</label>
+                        <div class="gender">
+                            <input type="radio" name="gender">Male
+                            <input type="radio" name="gender">Female
+                        </div>
+                    </div>
+
+                        <div class="field">
+                            <label>Student Photo</label>
+                            <input type="file" accept="image/*">
+                        </div>
+                </div>
+
+                    <label>Select Branch</label>
+                    <div class="branch">
+                        <input type="checkbox">CSE
+                        <input type="checkbox">CS-IT
+                        <input type="checkbox">AIDS 
+                    </div>
+
+                    <label>Address</label>
+                    <textarea></textarea>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+
+            </form>
+        </div>
+    </body>
+</html>
